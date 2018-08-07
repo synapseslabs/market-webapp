@@ -1,0 +1,74 @@
+[
+  {
+    "id": "publication-detail.loadingError",
+    "defaultMessage": "There was an error loading this publication."
+  },
+  {
+    "id": "publication-detail.confirmTransaction",
+    "defaultMessage": "Confirm transaction"
+  },
+  {
+    "id": "publication-detail.pressSubmitInMetaMask",
+    "defaultMessage": "Press {submit} in {currentProvider} window"
+  },
+  {
+    "id": "publication-detail.processingPurchase",
+    "defaultMessage": "Processing your purchase"
+  },
+  {
+    "id": "publication-detail.pleaseStandBy",
+    "defaultMessage": "Please stand by..."
+  },
+  {
+    "id": "publication-detail.purchaseSuccessful",
+    "defaultMessage": "Purchase was successful."
+  },
+  {
+    "id": "publication-detail.goToPurchases",
+    "defaultMessage": "Go To Purchases"
+  },
+  {
+    "id": "publication-detail.errorPurchasingPublication",
+    "defaultMessage": "There was a problem purchasing this publication."
+  },
+  {
+    "id": "publication-detail.seeConsoleForDetails",
+    "defaultMessage": "See the console for more details."
+  },
+  {
+    "id": "publication-detail.OK",
+    "defaultMessage": "OK"
+  },
+  {
+    "id": "publication-detail.viewOnIpfs",
+    "defaultMessage": "View on IPFS"
+  },
+  {
+    "id": "publication-detail.IPFS",
+    "defaultMessage": "IPFS: {ipfsHash}"
+  },
+  {
+    "id": "publication-detail.seller",
+    "defaultMessage": "Seller: {sellerAddress}"
+  },
+  {
+    "id": "publication-detail.price",
+    "defaultMessage": "Price"
+  },
+  {
+    "id": "publication-detail.ethereumCurrencyAbbrev",
+    "defaultMessage": "ETH"
+  },
+  {
+    "id": "publication-detail.buyNow",
+    "defaultMessage": "Buy Now"
+  },
+  {
+    "id": "publication-detail.soldOut",
+    "defaultMessage": "Sold Out"
+  },
+  {
+    "id": "publication-detail.reviews",
+    "defaultMessage": "Reviews"
+  }
+]

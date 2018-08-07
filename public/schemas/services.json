@@ -1,0 +1,60 @@
+{
+  "$schema":"http://json-schema.org/draft-06/schema#",
+  "description": "schema.services.schemaDescription",
+  "type": "object",
+  "required": ["name","category","description","price"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "schema.services.title",
+      "minLength": 3,
+      "maxLength": 100
+    },
+    "category": {
+      "type": "string",
+      "title": "schema.services.category",
+      "enum": [
+        "schema.services.businessServices",
+        "schema.services.counseling",
+        "schema.services.deliveryService",
+        "schema.services.dogWalking",
+        "schema.services.electrical",
+        "schema.services.graphicDesign",
+        "schema.services.handyman",
+        "schema.services.homeCleaning",
+        "schema.services.legal",
+        "schema.services.movingHelp",
+        "schema.services.painting",
+        "schema.services.photography",
+        "schema.services.plumbing",
+        "schema.services.repairTechnicalSupport",
+        "schema.services.softwareDevelopement",
+        "schema.services.webDesign",
+        "schema.services.writingTranslationTranscription"
+      ],
+      "default":"schema.services.homeCleaning"
+    },
+    "description": {
+      "type": "string",
+      "title": "schema.services.description",
+      "minLength": 10,
+      "maxLength": 1024
+    },
+    "location": {
+      "type": "string",
+      "title": "schema.services.location"
+    },
+    "price": {
+      "type": "number",
+      "title": "schema.services.priceInETH"
+    },
+    "pictures": {
+      "type": "array",
+      "title": "schema.services.selectPhotos",
+      "items": {
+        "type": "string",
+        "format": "data-url"
+      }
+    }
+  }
+}

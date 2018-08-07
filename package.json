@@ -1,0 +1,128 @@
+{
+  "name": "market-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synapseslabs/market-webapp.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.0-beta.2",
+    "bootstrap": "^4.1.1",
+    "browser-image-resizer": "^1.1.4",
+    "dotenv-webpack": "^1.5.5",
+    "fetch": "^1.1.0",
+    "intl": "^1.2.5",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.1",
+    "origin": "0.6.1",
+    "popper.js": "^1.14.3",
+    "react": "^16.3.2",
+    "react-avatar-editor": "^11.0.2",
+    "react-dom": "^16.3.2",
+    "react-intl": "^2.4.0",
+    "react-js-pagination": "^3.0.2",
+    "react-jsonschema-form": "^1.0.3",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "serve": "^6.5.6",
+    "store": "^2.0.12",
+    "synapses-contracts": "git+https://github.com/synapseslabs/synapses-contracts.git#develop",
+    "web3": "^1.0.0-beta.34"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.46",
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "@babel/preset-react": "^7.0.0-beta.46",
+    "@babel/register": "^7.0.0-beta.46",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-react-intl": "^2.4.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "0.28.11",
+    "dotenv": "^5.0.1",
+    "eslint": "4.19.1",
+    "eslint-plugin-react": "7.7.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "1.1.11",
+    "glob": "^7.1.2",
+    "html-webpack-plugin": "3.2.0",
+    "identicon.js": "^2.3.2",
+    "style-loader": "0.21.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "3.1.4"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "alias": {
+            "actions": "./src/actions",
+            "components": "./src/components",
+            "constants": "./src/constants",
+            "pages": "./src/pages",
+            "reducers": "./src/reducers",
+            "utils": "./src/utils"
+          }
+        }
+      ],
+      [
+        "react-intl",
+        {
+          "messagesDir": "./translations/messages",
+          "enforceDescriptions": false
+        }
+      ]
+    ]
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "impliedStrict": true
+      }
+    },
+    "globals": {
+      "web3": true
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true,
+      "mocha": true
+    },
+    "plugins": [
+      "react"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "rules": {
+      "react/prop-types": "off",
+      "react/no-children-prop": "off",
+      "no-console": "off"
+    }
+  }
+}

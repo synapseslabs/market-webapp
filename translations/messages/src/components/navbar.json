@@ -1,0 +1,26 @@
+[
+  {
+    "id": "navbar.publications",
+    "defaultMessage": "Publications"
+  },
+  {
+    "id": "navbar.buying",
+    "defaultMessage": "Buying"
+  },
+  {
+    "id": "navbar.selling",
+    "defaultMessage": "Selling"
+  },
+  {
+    "id": "navbar.myPublications",
+    "defaultMessage": "My Publications"
+  },
+  {
+    "id": "navbar.mySales",
+    "defaultMessage": "My Sales"
+  },
+  {
+    "id": "navbar.addPublication",
+    "defaultMessage": "Add a Publication"
+  }
+]

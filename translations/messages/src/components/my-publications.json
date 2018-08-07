@@ -1,0 +1,58 @@
+[
+  {
+    "id": "my-publications.loading",
+    "defaultMessage": "Loading..."
+  },
+  {
+    "id": "my-publications.no-publications",
+    "defaultMessage": "You don't have any publications yet."
+  },
+  {
+    "id": "my-publications.no-publications-steps",
+    "defaultMessage": "Follow the steps below to create your first publication!"
+  },
+  {
+    "id": "my-publications.number-one",
+    "defaultMessage": "1"
+  },
+  {
+    "id": "my-publications.step-one",
+    "defaultMessage": "Choose the right category for your publication."
+  },
+  {
+    "id": "my-publications.number-two",
+    "defaultMessage": "2"
+  },
+  {
+    "id": "my-publications.step-two",
+    "defaultMessage": "Give your publication a name, description, and price."
+  },
+  {
+    "id": "my-publications.number-three",
+    "defaultMessage": "3"
+  },
+  {
+    "id": "my-publications.step-three",
+    "defaultMessage": "Preview your publication and publish it to the blockchain."
+  },
+  {
+    "id": "my-publications.create-publication",
+    "defaultMessage": "Create Your First Publication"
+  },
+  {
+    "id": "my-publications.myPublicationsHeading",
+    "defaultMessage": "My Publications"
+  },
+  {
+    "id": "my-publications.all",
+    "defaultMessage": "All"
+  },
+  {
+    "id": "my-publications.active",
+    "defaultMessage": "Active"
+  },
+  {
+    "id": "my-publications.inactive",
+    "defaultMessage": "Inactive"
+  }
+]

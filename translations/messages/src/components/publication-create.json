@@ -1,0 +1,142 @@
+[
+  {
+    "id": "publication-create.forSaleLabel",
+    "defaultMessage": "For Sale"
+  },
+  {
+    "id": "publication-create.housingLabel",
+    "defaultMessage": "Housing"
+  },
+  {
+    "id": "publication-create.transportation",
+    "defaultMessage": "Transportation"
+  },
+  {
+    "id": "publication-create.tickets",
+    "defaultMessage": "Tickets"
+  },
+  {
+    "id": "publication-create.services",
+    "defaultMessage": "Services"
+  },
+  {
+    "id": "publication-create.announcements",
+    "defaultMessage": "Announcements"
+  },
+  {
+    "id": "publication-create.chooseSchema",
+    "defaultMessage": "Choose a schema for your product or service"
+  },
+  {
+    "id": "publication-create.schemaExplainer",
+    "defaultMessage": "Your product or service will use a schema to describe its attributes like name, description, and price. Origin already has multiple schemas that map to well-known categories of publications like housing, auto, and services."
+  },
+  {
+    "id": "publication-create.stepNumberLabel",
+    "defaultMessage": "STEP {stepNumber}"
+  },
+  {
+    "id": "publication-create.whatTypeOfPublication",
+    "defaultMessage": "What type of publication do you want to create?"
+  },
+  {
+    "id": "publication-create.next",
+    "defaultMessage": "Next"
+  },
+  {
+    "id": "publication-create.howItWorksHeading",
+    "defaultMessage": "How it works"
+  },
+  {
+    "id": "publication-create.howItWorksContentPart1",
+    "defaultMessage": "Origin uses a Mozilla project called {jsonSchemaLink}  to validate your publication according to standard rules. This standardization is key to allowing unaffiliated entities to read and write to the same data layer."
+  },
+  {
+    "id": "publication-create.jsonSchema",
+    "defaultMessage": "JSONSchema"
+  },
+  {
+    "id": "publication-create.howItWorksContentPart2",
+    "defaultMessage": "Be sure to give your publication an appropriate title and description that will inform others as to what you’re offering."
+  },
+  {
+    "id": "publication-create.viewSchemaLinkLabel",
+    "defaultMessage": "View the {schemaName} schema"
+  },
+  {
+    "id": "publication-create.createPublicationHeading",
+    "defaultMessage": "Create your publication"
+  },
+  {
+    "id": "backButtonLabel",
+    "defaultMessage": "Back"
+  },
+  {
+    "id": "continueButtonLabel",
+    "defaultMessage": "Continue"
+  },
+  {
+    "id": "publication-create.confirmTransaction",
+    "defaultMessage": "Confirm transaction"
+  },
+  {
+    "id": "publication-create.pressSubmitInMetaMask",
+    "defaultMessage": "Press {submit} in {currentProvider} window"
+  },
+  {
+    "id": "publication-create.uploadingYourPublication",
+    "defaultMessage": "Uploading your publication"
+  },
+  {
+    "id": "publication-create.pleaseStandBy",
+    "defaultMessage": "Please stand by..."
+  },
+  {
+    "id": "publication-create.successMessage",
+    "defaultMessage": "Success"
+  },
+  {
+    "id": "publication-create.seeAllPublications",
+    "defaultMessage": "See All Publications"
+  },
+  {
+    "id": "publication-create.error1",
+    "defaultMessage": "There was a problem creating this publication."
+  },
+  {
+    "id": "publication-create.error2",
+    "defaultMessage": "See the console for more details."
+  },
+  {
+    "id": "publication-create.OK",
+    "defaultMessage": "OK"
+  },
+  {
+    "id": "publication-create.previewPublicationHeading",
+    "defaultMessage": "Preview your publication"
+  },
+  {
+    "id": "publication-create.whatHappensNextHeading",
+    "defaultMessage": "What happens next?"
+  },
+  {
+    "id": "publication-create.whatHappensNextContent1",
+    "defaultMessage": "When you hit submit, a JSON object representing your publication will be published to {ipfsLink}  and the content hash will be published to a publication smart contract running on the Ethereum network."
+  },
+  {
+    "id": "publication-create.IPFS",
+    "defaultMessage": "IPFS"
+  },
+  {
+    "id": "publication-create.whatHappensNextContent2",
+    "defaultMessage": "Please review your publication before submitting. Your publication will appear to others just as it looks on the window to the left."
+  },
+  {
+    "id": "publication-create.backButtonLabel",
+    "defaultMessage": "Back"
+  },
+  {
+    "id": "publication-create.doneButtonLabel",
+    "defaultMessage": "Done"
+  }
+]

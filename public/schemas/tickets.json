@@ -1,0 +1,57 @@
+{
+  "$schema":"http://json-schema.org/draft-06/schema#",
+  "description": "schema.tickets.schemaDescription",
+  "type": "object",
+  "required": ["name","category","description","price"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "schema.tickets.title",
+      "minLength": 3,
+      "maxLength": 100
+    },
+    "category": {
+      "type": "string",
+      "title": "schema.tickets.category",
+      "enum": [
+        "schema.tickets.arts",
+        "schema.tickets.classesWorkshops",
+        "schema.tickets.conference",
+        "schema.tickets.fundraisers",
+        "schema.tickets.music",
+        "schema.tickets.nonProfitEvent",
+        "schema.tickets.other",
+        "schema.tickets.sports",
+        "schema.tickets.theater",
+        "schema.tickets.tradeshow"
+      ]
+    },
+    "datetime": {
+        "type": "string",
+        "format": "date-time",
+        "title": "schema.tickets.when"
+    },
+    "location": {
+      "type": "string",
+      "title": "schema.tickets.where"
+    },
+    "description": {
+      "type": "string",
+      "title": "schema.tickets.description",
+      "minLength": 10,
+      "maxLength": 1024
+    },
+    "price": {
+      "type": "number",
+      "title": "schema.tickets.priceInETH"
+    },
+    "pictures": {
+      "type": "array",
+      "title": "schema.tickets.selectPhotos",
+      "items": {
+        "type": "string",
+        "format": "data-url"
+      }
+    }
+  }
+}

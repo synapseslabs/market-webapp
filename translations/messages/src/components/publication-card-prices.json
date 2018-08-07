@@ -1,0 +1,14 @@
+[
+  {
+    "id": "publication-card-prices.loadingMessage",
+    "defaultMessage": "Loading..."
+  },
+  {
+    "id": "publication-card-prices.ethereumCurrencyAbbrev",
+    "defaultMessage": "ETH"
+  },
+  {
+    "id": "publication-card-prices.sold",
+    "defaultMessage": "Sold"
+  }
+]

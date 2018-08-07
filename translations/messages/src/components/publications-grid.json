@@ -1,0 +1,14 @@
+[
+  {
+    "id": "publications-grid.originContractNotFound",
+    "defaultMessage": "The Origin Contract was not found on this network."
+  },
+  {
+    "id": "publications-grid.changeNetworks",
+    "defaultMessage": "You may need to change networks, or deploy the contract."
+  },
+  {
+    "id": "publications-grid.publicationsCount",
+    "defaultMessage": "{publicationIdsCount} Publications"
+  }
+]

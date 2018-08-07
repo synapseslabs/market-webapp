@@ -1,0 +1,22 @@
+[
+  {
+    "id": "my-publication-card.confirmClosePublication",
+    "defaultMessage": "Are you sure that you want to permanently close this publication? This cannot be undone."
+  },
+  {
+    "id": "my-publication-card.ethereumCurrencyAbbrev",
+    "defaultMessage": "ETH"
+  },
+  {
+    "id": "my-publication-card.soldOut",
+    "defaultMessage": "Sold Out"
+  },
+  {
+    "id": "my-publication-card.totalQuantity",
+    "defaultMessage": "Total Quantity : {quantity}"
+  },
+  {
+    "id": "my-publication-card.closePublication",
+    "defaultMessage": "Close Publication"
+  }
+]
