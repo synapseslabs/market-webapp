@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development --open",
+    "start": "npx webpack-dev-server --open --host 0.0.0.0",
     "build": "webpack --mode production"
   },
   "dependencies": {
@@ -43,6 +43,7 @@
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.46",
     "@babel/core": "^7.0.0-beta.46",
+    "@babel/polyfill": "^7.0.0-beta.56",
     "@babel/preset-env": "^7.0.0-beta.46",
     "@babel/preset-react": "^7.0.0-beta.46",
     "@babel/register": "^7.0.0-beta.46",

@@ -16,7 +16,7 @@ const env = {
 }
 
 var config = {
-  entry: { app: './src/index.js' },
+  entry: ['@babel/polyfill', './src/index.js' ],
   devtool: isProduction ? false : 'cheap-module-source-map',
   output: {
     path: path.resolve(__dirname, 'build'),
